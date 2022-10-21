@@ -1,15 +1,30 @@
 ﻿namespace FitDash.Core.Events
 {
-    public class NewWorkoutRotineCreatedEvent : DomainEvent
+    public class NewWorkoutRotineCreatedEvent : Event
     {
-        public DateTime? StartDate { get;  set; }
-        public DateTime? Validate { get;  set; }
-        public string UserId { get; set; }
+        public DateTime? StartDate { get; private set; }
+        public DateTime? Validate { get; private set; }
+        public string UserId { get; private set; }
 
-
-        public NewWorkoutRotineCreatedEvent(Guid aggregateId) : base(aggregateId)
+        public NewWorkoutRotineCreatedEvent(Guid workoutRotineId, DateTime? startDate, DateTime? validate, string userId)
         {
+            AggregateId = workoutRotineId;
+            StartDate = startDate;
+            Validate = validate;
+            UserId = userId;
+        }
+    }
 
+    public class NewScheduleToRemoveWorkoutRotineEvent : Event
+    {
+        public DateTime DueDate { get; private set; }
+        public string UserId { get; private set; }
+
+        public NewScheduleToRemoveWorkoutRotineEvent(Guid workoutRotineId, DateTime dueDate, string userId)
+        {
+            AggregateId = workoutRotineId;
+            DueDate = dueDate;
+            UserId = userId;
         }
     }
 }

@@ -1,8 +1,3 @@
-C:\Users\jhoua\Documents\Projects\FitDash\Backend\FitDash\src\services\FitDash.Workout.Application\obj\Debug\net6.0\FitDash.Workout.Application.csproj.AssemblyReference.cache
-C:\Users\jhoua\Documents\Projects\FitDash\Backend\FitDash\src\services\FitDash.Workout.Application\obj\Debug\net6.0\FitDash.Workout.Application.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\jhoua\Documents\Projects\FitDash\Backend\FitDash\src\services\FitDash.Workout.Application\obj\Debug\net6.0\FitDash.Workout.Application.AssemblyInfoInputs.cache
-C:\Users\jhoua\Documents\Projects\FitDash\Backend\FitDash\src\services\FitDash.Workout.Application\obj\Debug\net6.0\FitDash.Workout.Application.AssemblyInfo.cs
-C:\Users\jhoua\Documents\Projects\FitDash\Backend\FitDash\src\services\FitDash.Workout.Application\obj\Debug\net6.0\FitDash.Workout.Application.csproj.CoreCompileInputs.cache
 C:\Users\jhoua\Documents\Projects\FitDash\Backend\FitDash\src\services\FitDash.Workout.Application\bin\Debug\net6.0\FitDash.Workout.Application.deps.json
 C:\Users\jhoua\Documents\Projects\FitDash\Backend\FitDash\src\services\FitDash.Workout.Application\bin\Debug\net6.0\FitDash.Workout.Application.dll
 C:\Users\jhoua\Documents\Projects\FitDash\Backend\FitDash\src\services\FitDash.Workout.Application\bin\Debug\net6.0\FitDash.Workout.Application.pdb
@@ -10,6 +5,11 @@ C:\Users\jhoua\Documents\Projects\FitDash\Backend\FitDash\src\services\FitDash.W
 C:\Users\jhoua\Documents\Projects\FitDash\Backend\FitDash\src\services\FitDash.Workout.Application\bin\Debug\net6.0\FItDash.Workout.Domain.dll
 C:\Users\jhoua\Documents\Projects\FitDash\Backend\FitDash\src\services\FitDash.Workout.Application\bin\Debug\net6.0\FitDash.Core.pdb
 C:\Users\jhoua\Documents\Projects\FitDash\Backend\FitDash\src\services\FitDash.Workout.Application\bin\Debug\net6.0\FItDash.Workout.Domain.pdb
+C:\Users\jhoua\Documents\Projects\FitDash\Backend\FitDash\src\services\FitDash.Workout.Application\obj\Debug\net6.0\FitDash.Workout.Application.csproj.AssemblyReference.cache
+C:\Users\jhoua\Documents\Projects\FitDash\Backend\FitDash\src\services\FitDash.Workout.Application\obj\Debug\net6.0\FitDash.Workout.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jhoua\Documents\Projects\FitDash\Backend\FitDash\src\services\FitDash.Workout.Application\obj\Debug\net6.0\FitDash.Workout.Application.AssemblyInfoInputs.cache
+C:\Users\jhoua\Documents\Projects\FitDash\Backend\FitDash\src\services\FitDash.Workout.Application\obj\Debug\net6.0\FitDash.Workout.Application.AssemblyInfo.cs
+C:\Users\jhoua\Documents\Projects\FitDash\Backend\FitDash\src\services\FitDash.Workout.Application\obj\Debug\net6.0\FitDash.Workout.Application.csproj.CoreCompileInputs.cache
 C:\Users\jhoua\Documents\Projects\FitDash\Backend\FitDash\src\services\FitDash.Workout.Application\obj\Debug\net6.0\FitDash.Workout.Application.csproj.CopyComplete
 C:\Users\jhoua\Documents\Projects\FitDash\Backend\FitDash\src\services\FitDash.Workout.Application\obj\Debug\net6.0\FitDash.Workout.Application.dll
 C:\Users\jhoua\Documents\Projects\FitDash\Backend\FitDash\src\services\FitDash.Workout.Application\obj\Debug\net6.0\refint\FitDash.Workout.Application.dll

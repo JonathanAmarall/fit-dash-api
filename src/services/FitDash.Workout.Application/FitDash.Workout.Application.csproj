@@ -11,4 +11,8 @@
     <ProjectReference Include="..\FItDash.Workout.Domain\FItDash.Workout.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Event\" />
+  </ItemGroup>
+
 </Project>

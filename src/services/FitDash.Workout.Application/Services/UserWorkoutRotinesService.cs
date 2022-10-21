@@ -1,11 +1,12 @@
-﻿using FitDash.ViewModels;
+﻿using FitDash.Core.Events;
+using FitDash.ViewModels;
 using FitDash.Workout.Domain.Repositories;
 using FitDash.Workout.Entities;
 using Microsoft.AspNetCore.Identity;
 
 namespace FitDash.Workout.Application.Services
 {
-    public class UserWorkoutRotinesService
+    public class UserWorkoutRotinesService : IUserWorkoutRotinesService
     {
         private readonly IWorkoutRotineRepository _workoutRotineRepository;
         private readonly ITrainingRepository _trainingRepository;
@@ -20,7 +21,6 @@ namespace FitDash.Workout.Application.Services
 
         public async Task<ServiceResult> CreateRoutine(WorkoutRotineViewModel vm)
         {
-
             var user = await _userManager.FindByIdAsync(vm.UserId);
             if (user == null)
                 return new ServiceResult(false, "User is not exits.");
@@ -39,21 +39,24 @@ namespace FitDash.Workout.Application.Services
             if (workoutRotine.Trainings?.Count == 0)
                 return new ServiceResult(false, "Training must be informed!");
 
-            if (workoutRotine.InactiveOnExpiration)
-            {
-                // TODO: create function in background service for inative this Workoutrotine
-            }
-
             await _workoutRotineRepository.CreateAsync(workoutRotine);
-            if (await _workoutRotineRepository.UnitOfWork.Commit())
-            {
-                // TODO: Emitir evento
-                return new ServiceResult(true, "Workout Rotine created successfully!", workoutRotine);
-            }
 
-            return new ServiceResult(false, "Persistence is failed!", workoutRotine);
+            if (workoutRotine.InactiveOnExpiration && workoutRotine.Validate != null)
+                workoutRotine.AddEvent(new NewScheduleToRemoveWorkoutRotineEvent(workoutRotine.Id, (DateTime)workoutRotine.Validate, workoutRotine.UserId));
+
+            workoutRotine.AddEvent(new NewWorkoutRotineCreatedEvent(workoutRotine.Id, workoutRotine.StartDate, workoutRotine.Validate, workoutRotine.UserId));
+
+            await _workoutRotineRepository.UnitOfWork.Commit();
+
+            return new ServiceResult(true, "Workout Rotine created successfully!", workoutRotine);
         }
 
+        public void Dispose()
+        {
+            _trainingRepository.Dispose();
+            _userManager.Dispose();
+            _workoutRotineRepository.Dispose();
+        }
     }
 
     public class ServiceResult

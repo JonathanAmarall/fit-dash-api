@@ -1,5 +1,6 @@
 ﻿using FitDash.Extensions;
 using FitDash.ViewModels;
+using FitDash.Workout.Application.ViewModels;
 using FitDash.Workout.Domain.Repositories;
 using FitDash.Workout.Entities;
 using Microsoft.AspNetCore.Mvc;
@@ -53,6 +54,7 @@ namespace FitDash.Controllers
             {
                 await trainingRepository.CreateAsync(training);
                 await trainingRepository.UnitOfWork.Commit();
+                // TODO: Ajustar retorno
                 return Created(new Uri(Url.Link("api/v1/Training", new { Id = training.Id })), training);
             }
 
