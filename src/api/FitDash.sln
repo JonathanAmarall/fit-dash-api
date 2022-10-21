@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FitDash", "FitDash.csproj", "{AF2DA178-9C16-406D-BBC0-4A70FF8223DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FitDash.Api", "FitDash.Api", "{06C9CB24-4C93-4C24-89CD-8A2A0C291561}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FitDash.Workout.Domain", "FitDash.Workout.Domain", "{E795C379-48E4-47D8-B86D-05E846F8ED42}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF2DA178-9C16-406D-BBC0-4A70FF8223DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF2DA178-9C16-406D-BBC0-4A70FF8223DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF2DA178-9C16-406D-BBC0-4A70FF8223DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF2DA178-9C16-406D-BBC0-4A70FF8223DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AF2DA178-9C16-406D-BBC0-4A70FF8223DE} = {06C9CB24-4C93-4C24-89CD-8A2A0C291561}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70705F6D-2650-4357-A320-4C71B80555F0}
+	EndGlobalSection
+EndGlobal

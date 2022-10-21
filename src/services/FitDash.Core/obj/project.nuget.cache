@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "KG49jDVmjlhfUinWDCRYFUFwGopI0lN5lZESpdtV5/+VUsp03xSqmwfx33XlmJWlMQoPXpLUE4k8cNJPhiCD/w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jhoua\\Documents\\Projects\\FitDash\\Backend\\FitDash\\src\\services\\FitDash.Core\\FitDash.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jhoua\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
+    "C:\\Users\\jhoua\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
