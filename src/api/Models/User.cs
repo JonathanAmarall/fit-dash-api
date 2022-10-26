@@ -1,24 +1,25 @@
-using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Identity;
 
-namespace FitDash.Workout.Entities
+namespace FitDash.Api.Models
 {
-    public class User : IdentityUser
+    public class User : IdentityUser<Guid>
     {
-        private readonly IList<WorkoutRotine> workoutRoutineList;
-        public User(DateTime birthDate, float weight, float height)
+        public User(string userName, string email, DateTime birthDate, float weight, float height, bool emailConfirmed) :
+            base(userName: userName)
         {
             BirthDate = birthDate;
             Weight = weight;
             Height = height;
+            BirthDate = birthDate;
 
-            workoutRoutineList = new List<WorkoutRotine>();    
+            Email = email;
+            EmailConfirmed = emailConfirmed;
         }
 
         public DateTime BirthDate { get; private set; }
         public float Weight { get; private set; }
         public float Height { get; private set; }
 
-        public ICollection<WorkoutRotine> WorkoutRotines{ get => workoutRoutineList; }
 
         public int GetYearsOld()
         {

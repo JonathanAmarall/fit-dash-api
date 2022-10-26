@@ -7,7 +7,7 @@ namespace FitDash.Workout.Entities
     {
         private readonly IList<Training>? _trainingList;
 
-        public WorkoutRotine(string userId, DateTime? startDate, DateTime? validate, string? observations, bool inactiveOnExpiration)
+        public WorkoutRotine(Guid userId, DateTime? startDate, DateTime? validate, string? observations, bool inactiveOnExpiration)
         {
             UserId = userId;
             StartDate = startDate;
@@ -28,8 +28,7 @@ namespace FitDash.Workout.Entities
         // EF Rel.
         public ICollection<Training>? Trainings { get => _trainingList; }
 
-        public string UserId { get; private set; }
-        public User User { get; private set; }
+        public Guid UserId { get; private set; }
 
 
         public void AddTraining(Training training)

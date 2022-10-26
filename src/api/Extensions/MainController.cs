@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
+using System.Security.Claims;
 
 namespace FitDash.Extensions
 {
@@ -47,5 +48,20 @@ namespace FitDash.Extensions
         {
             return !Errors.Any();
         }
+
+
+        protected Guid GetUserId()
+        {
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier).Value;
+
+            if (string.IsNullOrWhiteSpace(userId))
+                AddProcessingError("User not found.");
+
+            if(!Guid.TryParse(userId, out Guid result))
+                AddProcessingError("User not found.");
+
+            return result;
+        }
+
     }
 }

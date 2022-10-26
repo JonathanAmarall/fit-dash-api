@@ -1,11 +1,13 @@
 ﻿using FitDash.Extensions;
 using FitDash.ViewModels;
 using FitDash.Workout.Application.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 
 namespace FitDash.Controllers.Workout
 {
+    [Authorize]
     [ApiController]
     [Route("api/v1/[controller]")]
     public class WorkoutRotinesController : MainController
@@ -17,7 +19,7 @@ namespace FitDash.Controllers.Workout
         {
             if (!ModelState.IsValid) return CustomReponse(vm);
 
-            var res = await userWorkoutRotinesService.CreateRoutine(vm);
+            var res = await userWorkoutRotinesService.CreateRoutine(GetUserId(), vm);
 
             if (!res.Success)
                 AddProcessingError(res.Message);

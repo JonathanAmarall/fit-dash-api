@@ -11,15 +11,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Workout", "Workout", "{2939
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{50852D72-CD0A-42B7-A033-5CF9F151DE38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FItDash.Workout.Domain", "src\services\FItDash.Workout.Domain\FItDash.Workout.Domain.csproj", "{FCA09C8D-2573-40F3-80C9-5704BFE5038E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FItDash.Workout.Domain", "src\services\FItDash.Workout.Domain\FItDash.Workout.Domain.csproj", "{FCA09C8D-2573-40F3-80C9-5704BFE5038E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FitDash.Api", "src\api\FitDash.Api.csproj", "{6CDBB3BB-D249-4E14-8067-BF1F42B3280A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitDash.Core", "src\services\FitDash.Core\FitDash.Core.csproj", "{CB7E39E0-46C9-4975-AA61-F454BC580A27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FitDash.Core", "src\services\FitDash.Core\FitDash.Core.csproj", "{CB7E39E0-46C9-4975-AA61-F454BC580A27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitDash.Workout.Data", "src\services\FitDash.Workout.Data\FitDash.Workout.Data.csproj", "{694E9552-8E13-4944-A89B-5684EBF5E43A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FitDash.Workout.Data", "src\services\FitDash.Workout.Data\FitDash.Workout.Data.csproj", "{694E9552-8E13-4944-A89B-5684EBF5E43A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitDash.Workout.Application", "src\services\FitDash.Workout.Application\FitDash.Workout.Application.csproj", "{D80367D2-2D91-46E5-B923-CB2136A4B063}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FitDash.Workout.Application", "src\services\FitDash.Workout.Application\FitDash.Workout.Application.csproj", "{D80367D2-2D91-46E5-B923-CB2136A4B063}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Diet", "Diet", "{96A03710-0AB6-429A-964E-86995F1F1559}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PsysicalAssessment", "PsysicalAssessment", "{6D1730A0-92B2-41D7-A349-0E0EBDE0079C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +63,8 @@ Global
 		{CB7E39E0-46C9-4975-AA61-F454BC580A27} = {50852D72-CD0A-42B7-A033-5CF9F151DE38}
 		{694E9552-8E13-4944-A89B-5684EBF5E43A} = {29392C7F-3E80-4279-9BDA-7B08D683240C}
 		{D80367D2-2D91-46E5-B923-CB2136A4B063} = {29392C7F-3E80-4279-9BDA-7B08D683240C}
+		{96A03710-0AB6-429A-964E-86995F1F1559} = {84373989-9658-4ECF-B131-E0D1B16558F0}
+		{6D1730A0-92B2-41D7-A349-0E0EBDE0079C} = {84373989-9658-4ECF-B131-E0D1B16558F0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3C514CB1-8305-4EE7-88CE-B9BD86B69FE2}

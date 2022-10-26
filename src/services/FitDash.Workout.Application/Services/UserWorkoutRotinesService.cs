@@ -10,22 +10,16 @@ namespace FitDash.Workout.Application.Services
     {
         private readonly IWorkoutRotineRepository _workoutRotineRepository;
         private readonly ITrainingRepository _trainingRepository;
-        private readonly UserManager<User> _userManager;
 
-        public UserWorkoutRotinesService(IWorkoutRotineRepository workoutRotineRepository, ITrainingRepository trainingRepository, UserManager<User> userManager)
+        public UserWorkoutRotinesService(IWorkoutRotineRepository workoutRotineRepository, ITrainingRepository trainingRepository)
         {
             _workoutRotineRepository = workoutRotineRepository;
             _trainingRepository = trainingRepository;
-            _userManager = userManager;
         }
 
-        public async Task<ServiceResult> CreateRoutine(WorkoutRotineViewModel vm)
+        public async Task<ServiceResult> CreateRoutine(Guid userId, WorkoutRotineViewModel vm)
         {
-            var user = await _userManager.FindByIdAsync(vm.UserId);
-            if (user == null)
-                return new ServiceResult(false, "User is not exits.");
-
-            var workoutRotine = new WorkoutRotine(vm.UserId, vm.StartDate, vm.Validate, vm.Observations, vm.InactiveOnExpiration);
+            var workoutRotine = new WorkoutRotine(userId, vm.StartDate, vm.Validate, vm.Observations, vm.InactiveOnExpiration);
 
             foreach (var trainingId in vm.TrainingsId)
             {
@@ -42,9 +36,9 @@ namespace FitDash.Workout.Application.Services
             await _workoutRotineRepository.CreateAsync(workoutRotine);
 
             if (workoutRotine.InactiveOnExpiration && workoutRotine.Validate != null)
-                workoutRotine.AddEvent(new NewScheduleToRemoveWorkoutRotineEvent(workoutRotine.Id, (DateTime)workoutRotine.Validate, workoutRotine.UserId));
+                workoutRotine.AddEvent(new NewScheduleToRemoveWorkoutRotineEvent(workoutRotine.Id, (DateTime)workoutRotine.Validate, userId));
 
-            workoutRotine.AddEvent(new NewWorkoutRotineCreatedEvent(workoutRotine.Id, workoutRotine.StartDate, workoutRotine.Validate, workoutRotine.UserId));
+            workoutRotine.AddEvent(new NewWorkoutRotineCreatedEvent(workoutRotine.Id, workoutRotine.StartDate, workoutRotine.Validate, userId));
 
             await _workoutRotineRepository.UnitOfWork.Commit();
 
@@ -54,8 +48,6 @@ namespace FitDash.Workout.Application.Services
         public void Dispose()
         {
             _trainingRepository.Dispose();
-            _userManager.Dispose();
-            _workoutRotineRepository.Dispose();
         }
     }
 

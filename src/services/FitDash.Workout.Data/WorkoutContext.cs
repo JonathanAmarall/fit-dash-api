@@ -2,12 +2,11 @@ using FitDash.Core.Data;
 using FitDash.Core.Events;
 using FitDash.Core.Mediator;
 using FitDash.Workout.Entities;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace FitDash.Workout.Data
 {
-    public class WorkoutContext : IdentityDbContext<User>, IUnitOfWork
+    public class WorkoutContext : DbContext, IUnitOfWork
     {
         private readonly IMediatorHandler _mediatorHandler;
         public WorkoutContext(DbContextOptions<WorkoutContext> options, IMediatorHandler mediatorHandler) : base(options)
@@ -16,7 +15,6 @@ namespace FitDash.Workout.Data
         }
 
         public DbSet<WorkoutRotine> WorkoutRotines { get; set; }
-        public DbSet<User> Users { get; set; }
         public DbSet<Training> Trainings { get; set; }
         public DbSet<Exercise> Exercises { get; set; }
 

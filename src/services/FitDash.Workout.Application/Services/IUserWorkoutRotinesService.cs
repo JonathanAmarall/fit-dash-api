@@ -4,6 +4,6 @@ namespace FitDash.Workout.Application.Services
 {
     public interface IUserWorkoutRotinesService : IDisposable
     {
-        Task<ServiceResult> CreateRoutine(WorkoutRotineViewModel vm);
+        Task<ServiceResult> CreateRoutine(Guid userId, WorkoutRotineViewModel vm);
     }
 }
