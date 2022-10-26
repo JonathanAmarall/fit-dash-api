@@ -30,7 +30,6 @@ namespace FitDash.Workout.Entities
 
         public Guid UserId { get; private set; }
 
-
         public void AddTraining(Training training)
         {
             _trainingList?.Add(training);

@@ -1,0 +1,309 @@
+﻿++Solução 'FitDash' ‎(5 de 5 projetos)
+i:{00000000-0000-0000-0000-000000000000}:FitDash.sln
+++Api
+i:{00000000-0000-0000-0000-000000000000}:Api
+++FitDash.Api
+i:{90ba419b-82e5-4c23-a870-5c1c150f454f}:FitDash.Api
+++Connected Services 
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:>1177
+++Dependências
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:>1176
+i:{fca09c8d-2573-40f3-80c9-5704bfe5038e}:>780
+i:{694e9552-8e13-4944-a89b-5684ebf5e43a}:>779
+i:{d80367d2-2d91-46e5-b923-cb2136a4b063}:>781
+i:{cb7e39e0-46c9-4975-aa61-f454bc580a27}:>778
+++Properties
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\api\properties\
+++Controllers
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\api\controllers\
+++Workout
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\api\controllers\workout\
+i:{84373989-9658-4ecf-b131-e0d1b16558f0}:Workout
+++ExercisesController.cs
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\api\controllers\workout\exercisescontroller.cs
+++TrainingsController.cs
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\api\controllers\workout\trainingscontroller.cs
+++WorkoutRotinesController.cs
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\api\controllers\workout\workoutrotinescontroller.cs
+++AuthController.cs
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\api\controllers\authcontroller.cs
+++Data
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\api\data\
+i:{cb7e39e0-46c9-4975-aa61-f454bc580a27}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\services\fitdash.core\data\
+++Seeders
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\api\data\seeders\
+i:{694e9552-8e13-4944-a89b-5684ebf5e43a}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\services\fitdash.workout.data\seeders\
+++ApplySeeders.cs
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\api\data\seeders\applyseeders.cs
+++IdentityContext.cs
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\api\data\identitycontext.cs
+++Extensions
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\api\extensions\
+++MainController.cs
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\api\extensions\maincontroller.cs
+++Migrations
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\api\migrations\
+i:{694e9552-8e13-4944-a89b-5684ebf5e43a}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\services\fitdash.workout.data\migrations\
+++Models
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\api\models\
+++User.cs
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\api\models\user.cs
+++Services
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\api\services\
+i:{00000000-0000-0000-0000-000000000000}:Services
+i:{d80367d2-2d91-46e5-b923-cb2136a4b063}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\services\fitdash.workout.application\services\
+++ITokenService.cs
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\api\services\itokenservice.cs
+++TimerBackgroundService.cs
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\api\services\timerbackgroundservice.cs
+++TokenService.cs
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\api\services\tokenservice.cs
+++Setup
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\api\setup\
+++ApiConfig.cs
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\api\setup\apiconfig.cs
+++AppConfig.cs
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\api\setup\appconfig.cs
+++DependencyInjection.cs
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\api\setup\dependencyinjection.cs
+++IdentityConfig.cs
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\api\setup\identityconfig.cs
+++JwtConfig.cs
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\api\setup\jwtconfig.cs
+++SwaggerConfig.cs
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\api\setup\swaggerconfig.cs
+++ViewModels
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\api\viewmodels\
+i:{d80367d2-2d91-46e5-b923-cb2136a4b063}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\services\fitdash.workout.application\viewmodels\
+++RegisterUserViewModel.cs
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\api\viewmodels\registeruserviewmodel.cs
+++.gitattributes
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\api\.gitattributes
+++.gitignore
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\api\.gitignore
+++appsettings.json
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\api\appsettings.json
+++appsettings.Development.json
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\api\appsettings.development.json
+++Program.cs
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\api\program.cs
+++README.md
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\api\readme.md
+++Nenhuma dependência de serviço descoberta
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:>1178
+++Analisadores
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:analisadores
+i:{fca09c8d-2573-40f3-80c9-5704bfe5038e}:analisadores
+i:{694e9552-8e13-4944-a89b-5684ebf5e43a}:analisadores
+i:{d80367d2-2d91-46e5-b923-cb2136a4b063}:analisadores
+i:{cb7e39e0-46c9-4975-aa61-f454bc580a27}:analisadores
+++Estruturas
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:estruturas
+i:{fca09c8d-2573-40f3-80c9-5704bfe5038e}:estruturas
+i:{694e9552-8e13-4944-a89b-5684ebf5e43a}:estruturas
+i:{d80367d2-2d91-46e5-b923-cb2136a4b063}:estruturas
+i:{cb7e39e0-46c9-4975-aa61-f454bc580a27}:estruturas
+++Pacotes
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:pacotes
+i:{fca09c8d-2573-40f3-80c9-5704bfe5038e}:pacotes
+i:{694e9552-8e13-4944-a89b-5684ebf5e43a}:pacotes
+i:{cb7e39e0-46c9-4975-aa61-f454bc580a27}:pacotes
+++Projetos
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:projetos
+i:{fca09c8d-2573-40f3-80c9-5704bfe5038e}:projetos
+i:{694e9552-8e13-4944-a89b-5684ebf5e43a}:projetos
+i:{d80367d2-2d91-46e5-b923-cb2136a4b063}:projetos
+++launchSettings.json
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\api\properties\launchsettings.json
+++20221026004203_Init_migrate.cs
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\api\migrations\20221026004203_init_migrate.cs
+++IdentityContextModelSnapshot.cs
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\api\migrations\identitycontextmodelsnapshot.cs
+++MessagePackAnalyzer
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:c:\users\jhoua\.nuget\packages\messagepackanalyzer\2.1.152\analyzers\dotnet\messagepackanalyzer.dll
+++Microsoft.AspNetCore.Analyzers
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.SourceGenerator.Tooling.Internal
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
+++Microsoft.CodeAnalysis.Analyzers
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:c:\users\jhoua\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.Analyzers
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:c:\users\jhoua\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{fca09c8d-2573-40f3-80c9-5704bfe5038e}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{694e9552-8e13-4944-a89b-5684ebf5e43a}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{d80367d2-2d91-46e5-b923-cb2136a4b063}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{cb7e39e0-46c9-4975-aa61-f454bc580a27}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{fca09c8d-2573-40f3-80c9-5704bfe5038e}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{694e9552-8e13-4944-a89b-5684ebf5e43a}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{d80367d2-2d91-46e5-b923-cb2136a4b063}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{cb7e39e0-46c9-4975-aa61-f454bc580a27}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:c:\users\jhoua\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.10\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{fca09c8d-2573-40f3-80c9-5704bfe5038e}:c:\users\jhoua\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.10\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{694e9552-8e13-4944-a89b-5684ebf5e43a}:c:\users\jhoua\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.10\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{d80367d2-2d91-46e5-b923-cb2136a4b063}:c:\users\jhoua\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.10\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{fca09c8d-2573-40f3-80c9-5704bfe5038e}:c:\users\jhoua\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{694e9552-8e13-4944-a89b-5684ebf5e43a}:c:\users\jhoua\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{d80367d2-2d91-46e5-b923-cb2136a4b063}:c:\users\jhoua\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++System.Text.Json.SourceGeneration
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{fca09c8d-2573-40f3-80c9-5704bfe5038e}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{694e9552-8e13-4944-a89b-5684ebf5e43a}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{d80367d2-2d91-46e5-b923-cb2136a4b063}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{cb7e39e0-46c9-4975-aa61-f454bc580a27}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.AspNetCore.App
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\api\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\api\microsoft.netcore.app
+i:{fca09c8d-2573-40f3-80c9-5704bfe5038e}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\services\fitdash.workout.domain\microsoft.netcore.app
+i:{694e9552-8e13-4944-a89b-5684ebf5e43a}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\services\fitdash.workout.data\microsoft.netcore.app
+i:{d80367d2-2d91-46e5-b923-cb2136a4b063}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\services\fitdash.workout.application\microsoft.netcore.app
+i:{cb7e39e0-46c9-4975-aa61-f454bc580a27}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\services\fitdash.core\microsoft.netcore.app
+++AutoMapper.Extensions.Microsoft.DependencyInjection (12.0.0)
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:>1191
+++MediatR.Extensions.Microsoft.DependencyInjection (11.0.0)
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:>1197
+++Microsoft.AspNetCore.Authentication.JwtBearer (6.0.10)
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:>1291
+++Microsoft.AspNetCore.Identity.EntityFrameworkCore (6.0.10)
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:>1194
+i:{fca09c8d-2573-40f3-80c9-5704bfe5038e}:>1221
+i:{694e9552-8e13-4944-a89b-5684ebf5e43a}:>1244
+++Microsoft.EntityFrameworkCore (6.0.10)
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:>1189
+i:{694e9552-8e13-4944-a89b-5684ebf5e43a}:>1242
+++Microsoft.EntityFrameworkCore.Design (6.0.10)
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:>1192
+i:{694e9552-8e13-4944-a89b-5684ebf5e43a}:>1243
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.10)
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:>1190
+++Microsoft.EntityFrameworkCore.Tools (6.0.10)
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:>1196
+++Microsoft.VisualStudio.Web.CodeGeneration.Design (6.0.10)
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:>1198
+++Npgsql.EntityFrameworkCore.PostgreSQL (6.0.7)
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:>1195
+i:{694e9552-8e13-4944-a89b-5684ebf5e43a}:>1245
+++Swashbuckle.AspNetCore (6.3.0)
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:>1193
+++FitDash.Workout.Application
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\services\fitdash.workout.application\fitdash.workout.application.csproj
+i:{29392c7f-3e80-4279-9bda-7b08d683240c}:FitDash.Workout.Application
+++FitDash.Workout.Data
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\services\fitdash.workout.data\fitdash.workout.data.csproj
+i:{29392c7f-3e80-4279-9bda-7b08d683240c}:FitDash.Workout.Data
+++20221026004203_Init_migrate.Designer.cs
+i:{6cdbb3bb-d249-4e14-8067-bf1f42b3280a}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\api\migrations\20221026004203_init_migrate.designer.cs
+++PsysicalAssessment
+i:{84373989-9658-4ecf-b131-e0d1b16558f0}:PsysicalAssessment
+++Diet
+i:{84373989-9658-4ecf-b131-e0d1b16558f0}:Diet
+++FItDash.Workout.Domain
+i:{29392c7f-3e80-4279-9bda-7b08d683240c}:FItDash.Workout.Domain
+i:{694e9552-8e13-4944-a89b-5684ebf5e43a}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\services\fitdash.workout.domain\bin\debug\net6.0\fitdash.workout.domain.dll
+i:{d80367d2-2d91-46e5-b923-cb2136a4b063}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\services\fitdash.workout.domain\bin\debug\net6.0\fitdash.workout.domain.dll
+++Entities
+i:{fca09c8d-2573-40f3-80c9-5704bfe5038e}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\services\fitdash.workout.domain\entities\
+++Exercise.cs
+i:{fca09c8d-2573-40f3-80c9-5704bfe5038e}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\services\fitdash.workout.domain\entities\exercise.cs
+++Training.cs
+i:{fca09c8d-2573-40f3-80c9-5704bfe5038e}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\services\fitdash.workout.domain\entities\training.cs
+++WorkoutRotine.cs
+i:{fca09c8d-2573-40f3-80c9-5704bfe5038e}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\services\fitdash.workout.domain\entities\workoutrotine.cs
+++Repositories
+i:{fca09c8d-2573-40f3-80c9-5704bfe5038e}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\services\fitdash.workout.domain\repositories\
+i:{694e9552-8e13-4944-a89b-5684ebf5e43a}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\services\fitdash.workout.data\repositories\
+++IExerciseRepository.cs
+i:{fca09c8d-2573-40f3-80c9-5704bfe5038e}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\services\fitdash.workout.domain\repositories\iexerciserepository.cs
+++ITrainingRepository .cs
+i:{fca09c8d-2573-40f3-80c9-5704bfe5038e}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\services\fitdash.workout.domain\repositories\itrainingrepository .cs
+++IWorkoutRotineRepository.cs
+i:{fca09c8d-2573-40f3-80c9-5704bfe5038e}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\services\fitdash.workout.domain\repositories\iworkoutrotinerepository.cs
+++FitDash.Core
+i:{fca09c8d-2573-40f3-80c9-5704bfe5038e}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\services\fitdash.core\bin\debug\net6.0\fitdash.core.dll
+i:{d80367d2-2d91-46e5-b923-cb2136a4b063}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\services\fitdash.core\bin\debug\net6.0\fitdash.core.dll
+i:{50852d72-cd0a-42b7-a033-5cf9f151de38}:FitDash.Core
+++ExerciseSeed.cs
+i:{694e9552-8e13-4944-a89b-5684ebf5e43a}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\services\fitdash.workout.data\seeders\exerciseseed.cs
+++MediatorExtension.cs
+i:{694e9552-8e13-4944-a89b-5684ebf5e43a}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\services\fitdash.workout.data\mediatorextension.cs
+++WorkoutContext.cs
+i:{694e9552-8e13-4944-a89b-5684ebf5e43a}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\services\fitdash.workout.data\workoutcontext.cs
+++20221021013957_Init_Migrate.cs
+i:{694e9552-8e13-4944-a89b-5684ebf5e43a}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\services\fitdash.workout.data\migrations\20221021013957_init_migrate.cs
+++20221026004409_Removed_entity_User.cs
+i:{694e9552-8e13-4944-a89b-5684ebf5e43a}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\services\fitdash.workout.data\migrations\20221026004409_removed_entity_user.cs
+++WorkoutContextModelSnapshot.cs
+i:{694e9552-8e13-4944-a89b-5684ebf5e43a}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\services\fitdash.workout.data\migrations\workoutcontextmodelsnapshot.cs
+++ExerciseRepository.cs
+i:{694e9552-8e13-4944-a89b-5684ebf5e43a}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\services\fitdash.workout.data\repositories\exerciserepository.cs
+++TrainingRepository.cs
+i:{694e9552-8e13-4944-a89b-5684ebf5e43a}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\services\fitdash.workout.data\repositories\trainingrepository.cs
+++WorkoutRotineRepository.cs
+i:{694e9552-8e13-4944-a89b-5684ebf5e43a}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\services\fitdash.workout.data\repositories\workoutrotinerepository.cs
+++20221021013957_Init_Migrate.Designer.cs
+i:{694e9552-8e13-4944-a89b-5684ebf5e43a}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\services\fitdash.workout.data\migrations\20221021013957_init_migrate.designer.cs
+++20221026004409_Removed_entity_User.Designer.cs
+i:{694e9552-8e13-4944-a89b-5684ebf5e43a}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\services\fitdash.workout.data\migrations\20221026004409_removed_entity_user.designer.cs
+++Event
+i:{d80367d2-2d91-46e5-b923-cb2136a4b063}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\services\fitdash.workout.application\event\
+++IUserWorkoutRotinesService.cs
+i:{d80367d2-2d91-46e5-b923-cb2136a4b063}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\services\fitdash.workout.application\services\iuserworkoutrotinesservice.cs
+++UserWorkoutRotinesService.cs
+i:{d80367d2-2d91-46e5-b923-cb2136a4b063}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\services\fitdash.workout.application\services\userworkoutrotinesservice.cs
+++TrainingViewModel.cs
+i:{d80367d2-2d91-46e5-b923-cb2136a4b063}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\services\fitdash.workout.application\viewmodels\trainingviewmodel.cs
+++WorkoutRotineViewModel.cs
+i:{d80367d2-2d91-46e5-b923-cb2136a4b063}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\services\fitdash.workout.application\viewmodels\workoutrotineviewmodel.cs
+++Core
+i:{84373989-9658-4ecf-b131-e0d1b16558f0}:Core
+++Communication
+i:{cb7e39e0-46c9-4975-aa61-f454bc580a27}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\services\fitdash.core\communication\
+++DomainObjects
+i:{cb7e39e0-46c9-4975-aa61-f454bc580a27}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\services\fitdash.core\domainobjects\
+++Mediator
+i:{cb7e39e0-46c9-4975-aa61-f454bc580a27}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\services\fitdash.core\mediator\
+++Messages
+i:{cb7e39e0-46c9-4975-aa61-f454bc580a27}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\services\fitdash.core\messages\
+++Command.cs
+i:{cb7e39e0-46c9-4975-aa61-f454bc580a27}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\services\fitdash.core\messages\command.cs
+++DomainEvent.cs
+i:{cb7e39e0-46c9-4975-aa61-f454bc580a27}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\services\fitdash.core\messages\domainevent.cs
+++Event.cs
+i:{cb7e39e0-46c9-4975-aa61-f454bc580a27}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\services\fitdash.core\messages\event.cs
+++Message.cs
+i:{cb7e39e0-46c9-4975-aa61-f454bc580a27}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\services\fitdash.core\messages\message.cs
+++NewWorkoutRotineCreatedEvent.cs
+i:{cb7e39e0-46c9-4975-aa61-f454bc580a27}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\services\fitdash.core\messages\newworkoutrotinecreatedevent.cs
+++IAggregateRoot.cs
+i:{cb7e39e0-46c9-4975-aa61-f454bc580a27}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\services\fitdash.core\data\iaggregateroot.cs
+++IRepository.cs
+i:{cb7e39e0-46c9-4975-aa61-f454bc580a27}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\services\fitdash.core\data\irepository.cs
+++IUnitOfWork.cs
+i:{cb7e39e0-46c9-4975-aa61-f454bc580a27}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\services\fitdash.core\data\iunitofwork.cs
+++EDifficulty.cs
+i:{cb7e39e0-46c9-4975-aa61-f454bc580a27}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\services\fitdash.core\domainobjects\edifficulty.cs
+++EntityBase.cs
+i:{cb7e39e0-46c9-4975-aa61-f454bc580a27}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\services\fitdash.core\domainobjects\entitybase.cs
+++IMediatorHandler.cs
+i:{cb7e39e0-46c9-4975-aa61-f454bc580a27}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\services\fitdash.core\mediator\imediatorhandler.cs
+++MediatorHandler.cs
+i:{cb7e39e0-46c9-4975-aa61-f454bc580a27}:c:\users\jhoua\documents\projects\fitdash\backend\fitdash\src\services\fitdash.core\mediator\mediatorhandler.cs
+++MediatR (11.0.0)
+i:{cb7e39e0-46c9-4975-aa61-f454bc580a27}:>1220

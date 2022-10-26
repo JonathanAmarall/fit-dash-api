@@ -1,5 +1,4 @@
 ﻿using FitDash.Extensions;
-using FitDash.ViewModels;
 using FitDash.Workout.Application.ViewModels;
 using FitDash.Workout.Domain.Repositories;
 using FitDash.Workout.Entities;
