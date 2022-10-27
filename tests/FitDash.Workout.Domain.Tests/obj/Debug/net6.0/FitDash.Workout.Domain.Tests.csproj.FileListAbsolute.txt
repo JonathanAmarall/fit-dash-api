@@ -121,3 +121,4 @@ C:\Users\jhoua\Documents\Projects\FitDash\Backend\FitDash\tests\FitDash.Workout.
 C:\Users\jhoua\Documents\Projects\FitDash\Backend\FitDash\tests\FitDash.Workout.Domain.Tests\obj\Debug\net6.0\FitDash.Workout.Domain.Tests.pdb
 C:\Users\jhoua\Documents\Projects\FitDash\Backend\FitDash\tests\FitDash.Workout.Domain.Tests\obj\Debug\net6.0\FitDash.Workout.Domain.Tests.genruntimeconfig.cache
 C:\Users\jhoua\Documents\Projects\FitDash\Backend\FitDash\tests\FitDash.Workout.Domain.Tests\obj\Debug\net6.0\ref\FitDash.Workout.Domain.Tests.dll
+C:\Users\jhoua\Documents\Projects\FitDash\Backend\FitDash\tests\FitDash.Workout.Domain.Tests\bin\Debug\net6.0\FluentValidation.dll

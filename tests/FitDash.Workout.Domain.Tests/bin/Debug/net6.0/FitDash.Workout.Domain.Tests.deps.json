@@ -19,6 +19,14 @@
         }
       },
       "coverlet.collector/3.1.0": {},
+      "FluentValidation/11.2.2": {
+        "runtime": {
+          "lib/net6.0/FluentValidation.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.2.2.0"
+          }
+        }
+      },
       "MediatR/11.0.0": {
         "dependencies": {
           "MediatR.Contracts": "1.0.1"
@@ -1311,6 +1319,7 @@
       "xunit.runner.visualstudio/2.4.3": {},
       "FitDash.Core/1.0.0": {
         "dependencies": {
+          "FluentValidation": "11.2.2",
           "MediatR": "11.0.0"
         },
         "runtime": {
@@ -1320,6 +1329,7 @@
       "FItDash.Workout.Domain/1.0.0": {
         "dependencies": {
           "FitDash.Core": "1.0.0",
+          "FluentValidation": "11.2.2",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.10"
         },
         "runtime": {
@@ -1340,6 +1350,13 @@
       "sha512": "sha512-YzYqSRrjoP5lULBhTDcTOjuM4IDPPi6PhFsl4w8EI4WdZhE6llt7E38Tg4CHyrS+QKwyu1+9OwkdDgluOdoBTw==",
       "path": "coverlet.collector/3.1.0",
       "hashPath": "coverlet.collector.3.1.0.nupkg.sha512"
+    },
+    "FluentValidation/11.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5QEte2BUZZF6Sezeekr7Zu1THfgpxU7pmuL2SjIrajuGMah+pxPGiRiLtw+x/tSUSSVmcv9LrUe41lKu4l0n4A==",
+      "path": "fluentvalidation/11.2.2",
+      "hashPath": "fluentvalidation.11.2.2.nupkg.sha512"
     },
     "MediatR/11.0.0": {
       "type": "package",

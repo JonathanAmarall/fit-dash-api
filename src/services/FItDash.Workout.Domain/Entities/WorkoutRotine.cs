@@ -1,11 +1,13 @@
 ﻿using FitDash.Core.Data;
 using FitDash.Core.DomainObjects;
+using FluentValidation;
+using FluentValidation.Results;
 
 namespace FitDash.Workout.Entities
 {
     public class WorkoutRotine : EntityBase, IAggregateRoot
     {
-        private readonly IList<Training>? _trainingList;
+        private readonly IList<Training> _trainingList;
 
         public WorkoutRotine(Guid userId, DateTime? startDate, DateTime? validate, string? observations, bool inactiveOnExpiration)
         {
@@ -26,7 +28,7 @@ namespace FitDash.Workout.Entities
         public bool InactiveOnExpiration { get; private set; }
 
         // EF Rel.
-        public ICollection<Training>? Trainings { get => _trainingList; }
+        public ICollection<Training> Trainings { get => _trainingList; }
 
         public Guid UserId { get; private set; }
 
@@ -39,6 +41,25 @@ namespace FitDash.Workout.Entities
         {
             Active = false;
             UpdateAt = DateTime.Now;
+        }
+
+        public override bool IsValid()
+        {
+            ValidationResult = new WorkoutRotineValidation().Validate(this);
+            return ValidationResult.IsValid;
+        }
+    }
+
+    public class WorkoutRotineValidation : AbstractValidator<WorkoutRotine>
+    {
+        public WorkoutRotineValidation()
+        {
+            RuleFor(wr => wr.UserId)
+                .NotEqual(Guid.Empty).WithMessage("UserId deve ser informado");
+
+            RuleFor(e => e.Trainings.Count)
+                .NotNull().WithMessage("Informe ao menos um treino")
+                .GreaterThan(0);
         }
     }
 

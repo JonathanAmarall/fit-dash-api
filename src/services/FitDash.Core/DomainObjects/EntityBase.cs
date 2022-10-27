@@ -1,10 +1,14 @@
 using FitDash.Core.Events;
+using FluentValidation;
+using FluentValidation.Results;
 
 namespace FitDash.Core.DomainObjects
 
 {
     public abstract class EntityBase
     {
+        public ValidationResult ValidationResult { get; protected set; }
+
         private List<Event> _notifications;
         public IReadOnlyCollection<Event> Notifications => _notifications?.AsReadOnly();
 
@@ -32,5 +36,11 @@ namespace FitDash.Core.DomainObjects
         }
 
         public void ClearEvents() => _notifications?.Clear();
+
+
+        public virtual bool IsValid()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

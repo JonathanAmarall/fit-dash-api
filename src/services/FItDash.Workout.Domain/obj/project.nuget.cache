@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "9GgHL/1hvQ2iioozAscgtQYaFIgCxSIqjyAy4cmD7aPUCMUBI2sKhz5pPMoPPoX6mS4u06ZL/uIwZ8LzoNjgbw==",
+  "dgSpecHash": "ctEykYT9StqvP7W86CQUArRFAqKHr00ZfOaQYE0bQRED0N2Ctvo3JqUuSrjKpJjw/sJV34oFNIkB9fGvZsMPsg==",
   "success": true,
   "projectFilePath": "C:\\Users\\jhoua\\Documents\\Projects\\FitDash\\Backend\\FitDash\\src\\services\\FItDash.Workout.Domain\\FItDash.Workout.Domain.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\jhoua\\.nuget\\packages\\fluentvalidation\\11.2.2\\fluentvalidation.11.2.2.nupkg.sha512",
     "C:\\Users\\jhoua\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
     "C:\\Users\\jhoua\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\jhoua\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.10\\microsoft.aspnetcore.cryptography.internal.6.0.10.nupkg.sha512",

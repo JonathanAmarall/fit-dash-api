@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "A6YwbCankqgkLxqFkJvwXqDHEW/nMrUv9+iQKWR7+FjhcystPmDiGG4lAvc+RzkrVh2DmmsXW+r6opvOJ0mW8A==",
+  "dgSpecHash": "YWXz+8dkm2QGdmvan8usHKA0656Jmgk2JCd7IGO60Zb+26qJXsG30j+vjOI5iN0PF++FkHk+Thg4Sb7dv02Z5g==",
   "success": true,
   "projectFilePath": "C:\\Users\\jhoua\\Documents\\Projects\\FitDash\\Backend\\FitDash\\tests\\FitDash.Workout.Domain.Tests\\FitDash.Workout.Domain.Tests.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\jhoua\\.nuget\\packages\\bogus\\34.0.2\\bogus.34.0.2.nupkg.sha512",
     "C:\\Users\\jhoua\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
+    "C:\\Users\\jhoua\\.nuget\\packages\\fluentvalidation\\11.2.2\\fluentvalidation.11.2.2.nupkg.sha512",
     "C:\\Users\\jhoua\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
     "C:\\Users\\jhoua\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\jhoua\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.10\\microsoft.aspnetcore.cryptography.internal.6.0.10.nupkg.sha512",

@@ -9,10 +9,19 @@
       "FItDash.Workout.Domain/1.0.0": {
         "dependencies": {
           "FitDash.Core": "1.0.0",
+          "FluentValidation": "11.2.2",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.10"
         },
         "runtime": {
           "FItDash.Workout.Domain.dll": {}
+        }
+      },
+      "FluentValidation/11.2.2": {
+        "runtime": {
+          "lib/net6.0/FluentValidation.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.2.2.0"
+          }
         }
       },
       "MediatR/11.0.0": {
@@ -245,6 +254,7 @@
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
       "FitDash.Core/1.0.0": {
         "dependencies": {
+          "FluentValidation": "11.2.2",
           "MediatR": "11.0.0"
         },
         "runtime": {
@@ -258,6 +268,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "FluentValidation/11.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5QEte2BUZZF6Sezeekr7Zu1THfgpxU7pmuL2SjIrajuGMah+pxPGiRiLtw+x/tSUSSVmcv9LrUe41lKu4l0n4A==",
+      "path": "fluentvalidation/11.2.2",
+      "hashPath": "fluentvalidation.11.2.2.nupkg.sha512"
     },
     "MediatR/11.0.0": {
       "type": "package",

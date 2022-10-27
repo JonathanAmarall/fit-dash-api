@@ -6,19 +6,25 @@ namespace FitDash.Workout.Domain.Tests
 {
     public class WorkoutRotineTests
     {
+        public WorkoutRotine workoutRotineValid;
+        public WorkoutRotineTests()
+        {
+            workoutRotineValid = new WorkoutRotine(Guid.NewGuid(), DateTime.Now, DateTime.Now, "Tomar muita água", true);
+        }
+
         [Fact]
-        public void WorkoutRotine_Deve_Ser_Instanciado()
+        public void WorkoutRotine_Deve_Ser_Valido()
         {
             // Arrange, Act, Assert (AAA)
 
             // Arrange = Arranjar, organizar, preparar, manipular
-            var workoutRotine = new WorkoutRotine(Guid.NewGuid(), DateTime.Now, DateTime.Now, "Tomar muita água", true);
+            var workoutRotine = workoutRotineValid;
 
             // Act
             workoutRotine.AddTraining(new Training("Treino de peito", null, Core.Enums.EDifficulty.BEGINNER));
 
             // Assert
-            Assert.NotNull(workoutRotine);
+            Assert.True(workoutRotine.IsValid());
         }
 
         [Fact]
@@ -27,7 +33,7 @@ namespace FitDash.Workout.Domain.Tests
             // Arrange, Act, Assert (AAA)
 
             // Arrange = Arranjar, organizar, preparar, manipular
-            var workoutRotine = new WorkoutRotine(Guid.NewGuid(), DateTime.Now, DateTime.Now, "Tomar muita água", true);
+            var workoutRotine = workoutRotineValid;
 
             // Act
             workoutRotine.InactiveWorkout();
