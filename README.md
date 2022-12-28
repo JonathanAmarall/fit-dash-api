@@ -1,5 +1,5 @@
 
-# FitDash - API
+# fit-dash - API
 
 *project in progress*
 
