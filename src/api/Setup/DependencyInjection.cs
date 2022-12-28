@@ -1,8 +1,11 @@
 ﻿using FitDash.Api.Services;
 using FitDash.Core.Mediator;
+using FitDash.Diet.Domain.CommandHandlers;
+using FitDash.Diet.Domain.Commands;
 using FitDash.Workout.Application.Services;
 using FitDash.Workout.Data.Repositories;
 using FitDash.Workout.Domain.Repositories;
+using FluentValidation.Results;
 using MediatR;
 using System.Reflection;
 
@@ -32,6 +35,10 @@ namespace FitDash.Api.Setup
 
             #region MediatR
             services.AddScoped<IMediatorHandler, MediatorHandler>();
+            #endregion
+
+            #region Handlers
+            services.AddScoped<IRequestHandler<CreateBasalMetabolismCommand, ValidationResult>, CreateBasalMetabolismCommandHandler>();
             #endregion
         }
     }

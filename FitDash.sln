@@ -30,11 +30,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Building Blocks", "Building
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FitDash.Core", "src\building blocks\FitDash.Core\FitDash.Core.csproj", "{CB7E39E0-46C9-4975-AA61-F454BC580A27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitDash.Diet.Domain", "src\services\FitDash.Diet.Domain\FitDash.Diet.Domain.csproj", "{CE32A4AB-6880-4E76-9E38-513F43712CE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FitDash.Diet.Domain", "src\services\FitDash.Diet.Domain\FitDash.Diet.Domain.csproj", "{CE32A4AB-6880-4E76-9E38-513F43712CE8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{5C85D879-3E93-4760-8B91-7CC4D43272C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitDash.Diet.Domain.Tests", "tests\FitDash.Diet.Domain.Tests\FitDash.Diet.Domain.Tests.csproj", "{FED66AD7-902F-4ECC-AB8D-4C57C8042D9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FitDash.Diet.Domain.Tests", "tests\FitDash.Diet.Domain.Tests\FitDash.Diet.Domain.Tests.csproj", "{FED66AD7-902F-4ECC-AB8D-4C57C8042D9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitDash.Diet.Data", "src\services\FitDash.Diet.Data\FitDash.Diet.Data.csproj", "{B2B0278C-C94B-4113-8AAF-A16DBC4D8586}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -74,6 +76,10 @@ Global
 		{FED66AD7-902F-4ECC-AB8D-4C57C8042D9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FED66AD7-902F-4ECC-AB8D-4C57C8042D9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FED66AD7-902F-4ECC-AB8D-4C57C8042D9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2B0278C-C94B-4113-8AAF-A16DBC4D8586}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2B0278C-C94B-4113-8AAF-A16DBC4D8586}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2B0278C-C94B-4113-8AAF-A16DBC4D8586}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2B0278C-C94B-4113-8AAF-A16DBC4D8586}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -93,6 +99,7 @@ Global
 		{CE32A4AB-6880-4E76-9E38-513F43712CE8} = {96A03710-0AB6-429A-964E-86995F1F1559}
 		{5C85D879-3E93-4760-8B91-7CC4D43272C6} = {96A03710-0AB6-429A-964E-86995F1F1559}
 		{FED66AD7-902F-4ECC-AB8D-4C57C8042D9E} = {5C85D879-3E93-4760-8B91-7CC4D43272C6}
+		{B2B0278C-C94B-4113-8AAF-A16DBC4D8586} = {96A03710-0AB6-429A-964E-86995F1F1559}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3C514CB1-8305-4EE7-88CE-B9BD86B69FE2}

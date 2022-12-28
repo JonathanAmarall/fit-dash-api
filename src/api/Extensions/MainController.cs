@@ -52,7 +52,7 @@ namespace FitDash.Extensions
 
         protected Guid GetUserId()
         {
-            var userId = User.FindFirst(ClaimTypes.NameIdentifier).Value;
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
 
             if (string.IsNullOrWhiteSpace(userId))
                 AddProcessingError("User not found.");

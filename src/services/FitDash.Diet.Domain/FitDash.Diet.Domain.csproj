@@ -10,4 +10,9 @@
     <ProjectReference Include="..\..\building blocks\FitDash.Core\FitDash.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="EventHandlers\" />
+    <Folder Include="Events\" />
+  </ItemGroup>
+
 </Project>

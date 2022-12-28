@@ -1,13 +1,16 @@
 ﻿using FitDash.Core.Events;
+using FluentValidation.Results;
 using MediatR;
-using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace FitDash.Core.Messages
 {
     public abstract class Command : Message, IRequest<ValidationResult>
     {
         public DateTime Timestamp { get; private set; }
-        public ValidationResult ValidationResult { get; set; }
+
+        [JsonIgnore]
+        public ValidationResult? ValidationResult { get; set; }
 
         protected Command()
         {

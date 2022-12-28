@@ -7,12 +7,14 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+	  <Compile Remove="Communication\**" />
+	  <EmbeddedResource Remove="Communication\**" />
+	  <None Remove="Communication\**" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="mediatr" Version="11.0.0" />
 		<PackageReference Include="FluentValidation" Version="11.2.2" />
-	</ItemGroup>
-	
-	<ItemGroup>
-		<Folder Include="Communication\" />
 	</ItemGroup>
 
 </Project>

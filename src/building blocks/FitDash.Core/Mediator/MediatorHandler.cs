@@ -1,7 +1,7 @@
 ﻿using FitDash.Core.Events;
 using FitDash.Core.Messages;
+using FluentValidation.Results;
 using MediatR;
-using System.ComponentModel.DataAnnotations;
 
 namespace FitDash.Core.Mediator
 {

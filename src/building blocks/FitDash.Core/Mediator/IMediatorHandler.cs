@@ -1,6 +1,6 @@
 ﻿using FitDash.Core.Events;
 using FitDash.Core.Messages;
-using System.ComponentModel.DataAnnotations;
+using FluentValidation.Results;
 
 namespace FitDash.Core.Mediator
 {
@@ -8,5 +8,6 @@ namespace FitDash.Core.Mediator
     {
         Task PublishEvent<T>(T evento) where T : Event;
         Task<ValidationResult> SendCommand<T>(T comando) where T : Command;
+        Task PublishNotification<T>(T notification);
     }
 }

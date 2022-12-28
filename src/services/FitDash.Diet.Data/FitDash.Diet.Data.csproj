@@ -6,4 +6,17 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\building blocks\FitDash.Core\FitDash.Core.csproj" />
+    <ProjectReference Include="..\FitDash.Diet.Domain\FitDash.Diet.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

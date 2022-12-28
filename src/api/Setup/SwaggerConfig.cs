@@ -13,7 +13,9 @@ namespace FitDash.Api.Setup
                     Title = "FitDash API",
                     Description = "This api is FitDash API",
                     Contact = new OpenApiContact() { Name = "Jonathan Amaral", Email = "jhouamaral95@gmail.com" },
+                    Version= "v1",
                 });
+
                 c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
                 {
                     Description = "JWT Authorization header using the Bearer scheme. \r\n\r\n Enter 'Bearer' [space] and then your token in the text input below.\r\n\r\nExample: \"Bearer 12345abcdef\"",

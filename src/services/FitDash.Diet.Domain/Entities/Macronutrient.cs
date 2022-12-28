@@ -20,6 +20,11 @@ namespace FitDash.Diet.Domain.Entities
 
         public decimal Calories { get; private set; }
 
+        // EF Rel.
+        public Guid BasalMetabolismId { get; private set; }
+        public BasalMetabolism BasalMetabolism { get; private set; }
+
+
         public void ApplyCaloricDeficit(decimal value)
         {
 
