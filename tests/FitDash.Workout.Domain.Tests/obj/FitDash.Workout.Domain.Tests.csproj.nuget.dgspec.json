@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jhoua\\Documents\\Projects\\FitDash\\Backend\\FitDash\\tests\\FitDash.Workout.Domain.Tests\\FitDash.Workout.Domain.Tests.csproj": {}
+    "C:\\Users\\jonathan.cequim\\Documents\\Projetcs\\FitDash\\tests\\FitDash.Workout.Domain.Tests\\FitDash.Workout.Domain.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jhoua\\Documents\\Projects\\FitDash\\Backend\\FitDash\\src\\services\\FitDash.Core\\FitDash.Core.csproj": {
+    "C:\\Users\\jonathan.cequim\\Documents\\Projetcs\\FitDash\\src\\building blocks\\FitDash.Core\\FitDash.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jhoua\\Documents\\Projects\\FitDash\\Backend\\FitDash\\src\\services\\FitDash.Core\\FitDash.Core.csproj",
+        "projectUniqueName": "C:\\Users\\jonathan.cequim\\Documents\\Projetcs\\FitDash\\src\\building blocks\\FitDash.Core\\FitDash.Core.csproj",
         "projectName": "FitDash.Core",
-        "projectPath": "C:\\Users\\jhoua\\Documents\\Projects\\FitDash\\Backend\\FitDash\\src\\services\\FitDash.Core\\FitDash.Core.csproj",
-        "packagesPath": "C:\\Users\\jhoua\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jhoua\\Documents\\Projects\\FitDash\\Backend\\FitDash\\src\\services\\FitDash.Core\\obj\\",
+        "projectPath": "C:\\Users\\jonathan.cequim\\Documents\\Projetcs\\FitDash\\src\\building blocks\\FitDash.Core\\FitDash.Core.csproj",
+        "packagesPath": "C:\\Users\\jonathan.cequim\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jonathan.cequim\\Documents\\Projetcs\\FitDash\\src\\building blocks\\FitDash.Core\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\jhoua\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\jonathan.cequim\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -59,7 +55,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -68,25 +65,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\jhoua\\Documents\\Projects\\FitDash\\Backend\\FitDash\\src\\services\\FItDash.Workout.Domain\\FItDash.Workout.Domain.csproj": {
+    "C:\\Users\\jonathan.cequim\\Documents\\Projetcs\\FitDash\\src\\services\\FItDash.Workout.Domain\\FitDash.Workout.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jhoua\\Documents\\Projects\\FitDash\\Backend\\FitDash\\src\\services\\FItDash.Workout.Domain\\FItDash.Workout.Domain.csproj",
-        "projectName": "FItDash.Workout.Domain",
-        "projectPath": "C:\\Users\\jhoua\\Documents\\Projects\\FitDash\\Backend\\FitDash\\src\\services\\FItDash.Workout.Domain\\FItDash.Workout.Domain.csproj",
-        "packagesPath": "C:\\Users\\jhoua\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jhoua\\Documents\\Projects\\FitDash\\Backend\\FitDash\\src\\services\\FItDash.Workout.Domain\\obj\\",
+        "projectUniqueName": "C:\\Users\\jonathan.cequim\\Documents\\Projetcs\\FitDash\\src\\services\\FItDash.Workout.Domain\\FitDash.Workout.Domain.csproj",
+        "projectName": "FitDash.Workout.Domain",
+        "projectPath": "C:\\Users\\jonathan.cequim\\Documents\\Projetcs\\FitDash\\src\\services\\FItDash.Workout.Domain\\FitDash.Workout.Domain.csproj",
+        "packagesPath": "C:\\Users\\jonathan.cequim\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jonathan.cequim\\Documents\\Projetcs\\FitDash\\src\\services\\FItDash.Workout.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\jhoua\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\jonathan.cequim\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -100,8 +93,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\jhoua\\Documents\\Projects\\FitDash\\Backend\\FitDash\\src\\services\\FitDash.Core\\FitDash.Core.csproj": {
-                "projectPath": "C:\\Users\\jhoua\\Documents\\Projects\\FitDash\\Backend\\FitDash\\src\\services\\FitDash.Core\\FitDash.Core.csproj"
+              "C:\\Users\\jonathan.cequim\\Documents\\Projetcs\\FitDash\\src\\building blocks\\FitDash.Core\\FitDash.Core.csproj": {
+                "projectPath": "C:\\Users\\jonathan.cequim\\Documents\\Projetcs\\FitDash\\src\\building blocks\\FitDash.Core\\FitDash.Core.csproj"
               }
             }
           }
@@ -131,7 +124,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -140,25 +134,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\jhoua\\Documents\\Projects\\FitDash\\Backend\\FitDash\\tests\\FitDash.Workout.Domain.Tests\\FitDash.Workout.Domain.Tests.csproj": {
+    "C:\\Users\\jonathan.cequim\\Documents\\Projetcs\\FitDash\\tests\\FitDash.Workout.Domain.Tests\\FitDash.Workout.Domain.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jhoua\\Documents\\Projects\\FitDash\\Backend\\FitDash\\tests\\FitDash.Workout.Domain.Tests\\FitDash.Workout.Domain.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\jonathan.cequim\\Documents\\Projetcs\\FitDash\\tests\\FitDash.Workout.Domain.Tests\\FitDash.Workout.Domain.Tests.csproj",
         "projectName": "FitDash.Workout.Domain.Tests",
-        "projectPath": "C:\\Users\\jhoua\\Documents\\Projects\\FitDash\\Backend\\FitDash\\tests\\FitDash.Workout.Domain.Tests\\FitDash.Workout.Domain.Tests.csproj",
-        "packagesPath": "C:\\Users\\jhoua\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jhoua\\Documents\\Projects\\FitDash\\Backend\\FitDash\\tests\\FitDash.Workout.Domain.Tests\\obj\\",
+        "projectPath": "C:\\Users\\jonathan.cequim\\Documents\\Projetcs\\FitDash\\tests\\FitDash.Workout.Domain.Tests\\FitDash.Workout.Domain.Tests.csproj",
+        "packagesPath": "C:\\Users\\jonathan.cequim\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jonathan.cequim\\Documents\\Projetcs\\FitDash\\tests\\FitDash.Workout.Domain.Tests\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\jhoua\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\jonathan.cequim\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -172,8 +162,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\jhoua\\Documents\\Projects\\FitDash\\Backend\\FitDash\\src\\services\\FItDash.Workout.Domain\\FItDash.Workout.Domain.csproj": {
-                "projectPath": "C:\\Users\\jhoua\\Documents\\Projects\\FitDash\\Backend\\FitDash\\src\\services\\FItDash.Workout.Domain\\FItDash.Workout.Domain.csproj"
+              "C:\\Users\\jonathan.cequim\\Documents\\Projetcs\\FitDash\\src\\building blocks\\FitDash.Core\\FitDash.Core.csproj": {
+                "projectPath": "C:\\Users\\jonathan.cequim\\Documents\\Projetcs\\FitDash\\src\\building blocks\\FitDash.Core\\FitDash.Core.csproj"
+              },
+              "C:\\Users\\jonathan.cequim\\Documents\\Projetcs\\FitDash\\src\\services\\FItDash.Workout.Domain\\FitDash.Workout.Domain.csproj": {
+                "projectPath": "C:\\Users\\jonathan.cequim\\Documents\\Projetcs\\FitDash\\src\\services\\FItDash.Workout.Domain\\FitDash.Workout.Domain.csproj"
               }
             }
           }
@@ -219,7 +212,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -228,7 +222,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

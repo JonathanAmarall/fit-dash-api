@@ -1,4 +1,5 @@
-﻿using FitDash.Workout.Entities;
+﻿using FitDash.Core.Enums;
+using FitDash.Workout.Entities;
 using Xunit;
 
 namespace FitDash.Workout.Domain.Tests
@@ -10,7 +11,7 @@ namespace FitDash.Workout.Domain.Tests
         public void Training_Deve_Ser_Instanciado()
         {
             // Arrange
-            var training = new Training("Treino de Peito", "Até a falha", Core.Enums.EDifficulty.BEGINNER);
+            var training = new Training("Treino de Peito", "Até a falha", EDifficulty.BEGINNER);
 
             // Act
             training.AddExercise(new Exercise("Supino", ""));

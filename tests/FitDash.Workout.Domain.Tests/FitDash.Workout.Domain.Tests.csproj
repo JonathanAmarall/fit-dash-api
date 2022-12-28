@@ -22,7 +22,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\services\FItDash.Workout.Domain\FItDash.Workout.Domain.csproj" />
+    <ProjectReference Include="..\..\src\building blocks\FitDash.Core\FitDash.Core.csproj" />
+    <ProjectReference Include="..\..\src\services\FItDash.Workout.Domain\FitDash.Workout.Domain.csproj" />
   </ItemGroup>
 
 </Project>

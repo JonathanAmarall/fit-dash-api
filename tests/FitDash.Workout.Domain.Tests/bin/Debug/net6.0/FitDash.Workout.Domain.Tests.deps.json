@@ -8,7 +8,9 @@
     ".NETCoreApp,Version=v6.0": {
       "FitDash.Workout.Domain.Tests/1.0.0": {
         "dependencies": {
-          "FItDash.Workout.Domain": "1.0.0",
+          "Bogus": "34.0.2",
+          "FitDash.Core": "1.0.0",
+          "FitDash.Workout.Domain": "1.0.0",
           "Microsoft.NET.Test.Sdk": "16.11.0",
           "coverlet.collector": "3.1.0",
           "xunit": "2.4.1",
@@ -16,6 +18,14 @@
         },
         "runtime": {
           "FitDash.Workout.Domain.Tests.dll": {}
+        }
+      },
+      "Bogus/34.0.2": {
+        "runtime": {
+          "lib/net6.0/Bogus.dll": {
+            "assemblyVersion": "34.0.2.0",
+            "fileVersion": "34.0.2.0"
+          }
         }
       },
       "coverlet.collector/3.1.0": {},
@@ -1326,14 +1336,14 @@
           "FitDash.Core.dll": {}
         }
       },
-      "FItDash.Workout.Domain/1.0.0": {
+      "FitDash.Workout.Domain/1.0.0": {
         "dependencies": {
           "FitDash.Core": "1.0.0",
           "FluentValidation": "11.2.2",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.10"
         },
         "runtime": {
-          "FItDash.Workout.Domain.dll": {}
+          "FitDash.Workout.Domain.dll": {}
         }
       }
     }
@@ -1343,6 +1353,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Bogus/34.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2KQAuMn3fLAQ2r6jeiffZnpv0bi3GCW3iRB2v1KeHIEBu8MNTh9dBlLTZwGvM0pr+9doKkU8L5JgCURmTmT88A==",
+      "path": "bogus/34.0.2",
+      "hashPath": "bogus.34.0.2.nupkg.sha512"
     },
     "coverlet.collector/3.1.0": {
       "type": "package",
@@ -2154,7 +2171,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "FItDash.Workout.Domain/1.0.0": {
+    "FitDash.Workout.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

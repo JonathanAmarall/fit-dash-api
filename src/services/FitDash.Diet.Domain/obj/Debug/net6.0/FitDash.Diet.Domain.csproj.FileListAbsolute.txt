@@ -1,0 +1,15 @@
+C:\Users\jonathan.cequim\Documents\Projetcs\FitDash\src\services\FitDash.Diet.Domain\bin\Debug\net6.0\FitDash.Diet.Domain.deps.json
+C:\Users\jonathan.cequim\Documents\Projetcs\FitDash\src\services\FitDash.Diet.Domain\bin\Debug\net6.0\FitDash.Diet.Domain.dll
+C:\Users\jonathan.cequim\Documents\Projetcs\FitDash\src\services\FitDash.Diet.Domain\bin\Debug\net6.0\FitDash.Diet.Domain.pdb
+C:\Users\jonathan.cequim\Documents\Projetcs\FitDash\src\services\FitDash.Diet.Domain\bin\Debug\net6.0\FitDash.Core.dll
+C:\Users\jonathan.cequim\Documents\Projetcs\FitDash\src\services\FitDash.Diet.Domain\bin\Debug\net6.0\FitDash.Core.pdb
+C:\Users\jonathan.cequim\Documents\Projetcs\FitDash\src\services\FitDash.Diet.Domain\obj\Debug\net6.0\FitDash.Diet.Domain.csproj.AssemblyReference.cache
+C:\Users\jonathan.cequim\Documents\Projetcs\FitDash\src\services\FitDash.Diet.Domain\obj\Debug\net6.0\FitDash.Diet.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jonathan.cequim\Documents\Projetcs\FitDash\src\services\FitDash.Diet.Domain\obj\Debug\net6.0\FitDash.Diet.Domain.AssemblyInfoInputs.cache
+C:\Users\jonathan.cequim\Documents\Projetcs\FitDash\src\services\FitDash.Diet.Domain\obj\Debug\net6.0\FitDash.Diet.Domain.AssemblyInfo.cs
+C:\Users\jonathan.cequim\Documents\Projetcs\FitDash\src\services\FitDash.Diet.Domain\obj\Debug\net6.0\FitDash.Diet.Domain.csproj.CoreCompileInputs.cache
+C:\Users\jonathan.cequim\Documents\Projetcs\FitDash\src\services\FitDash.Diet.Domain\obj\Debug\net6.0\FitDash.Diet.Domain.csproj.CopyComplete
+C:\Users\jonathan.cequim\Documents\Projetcs\FitDash\src\services\FitDash.Diet.Domain\obj\Debug\net6.0\FitDash.Diet.Domain.dll
+C:\Users\jonathan.cequim\Documents\Projetcs\FitDash\src\services\FitDash.Diet.Domain\obj\Debug\net6.0\refint\FitDash.Diet.Domain.dll
+C:\Users\jonathan.cequim\Documents\Projetcs\FitDash\src\services\FitDash.Diet.Domain\obj\Debug\net6.0\FitDash.Diet.Domain.pdb
+C:\Users\jonathan.cequim\Documents\Projetcs\FitDash\src\services\FitDash.Diet.Domain\obj\Debug\net6.0\ref\FitDash.Diet.Domain.dll

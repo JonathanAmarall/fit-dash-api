@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZExEicfFybdX3VaUD3TFEBlvWpzfSrYdEgE9h006HclYNXHnWtaL0kyd5Du39ODuBCmjOIOJ0BLd0jepOxlLhA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jonathan.cequim\\Documents\\Projetcs\\FitDash\\src\\services\\FitDash.Diet.Domain\\FitDash.Diet.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jonathan.cequim\\.nuget\\packages\\fluentvalidation\\11.2.2\\fluentvalidation.11.2.2.nupkg.sha512",
+    "C:\\Users\\jonathan.cequim\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
+    "C:\\Users\\jonathan.cequim\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

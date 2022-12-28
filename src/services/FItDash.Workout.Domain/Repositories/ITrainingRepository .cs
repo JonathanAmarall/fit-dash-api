@@ -8,7 +8,7 @@ namespace FitDash.Workout.Domain.Repositories
         Task CreateAsync(Training training);
         void Update(Training training);
         void Delete(Training training);
-        Task<Training> FindOneAsync(Guid id);
+        Task<Training?> FindOneAsync(Guid id);
         Task<List<Training>> GetAllAsync();
     }
 }

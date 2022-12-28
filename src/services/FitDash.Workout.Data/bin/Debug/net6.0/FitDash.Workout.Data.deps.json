@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "FitDash.Workout.Data/1.0.0": {
         "dependencies": {
-          "FItDash.Workout.Domain": "1.0.0",
+          "FitDash.Workout.Domain": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.10",
           "Microsoft.EntityFrameworkCore": "6.0.10",
           "Microsoft.EntityFrameworkCore.Design": "6.0.10",
@@ -301,20 +301,21 @@
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
       "FitDash.Core/1.0.0": {
         "dependencies": {
+          "FluentValidation": "11.2.2",
           "MediatR": "11.0.0"
         },
         "runtime": {
           "FitDash.Core.dll": {}
         }
       },
-      "FItDash.Workout.Domain/1.0.0": {
+      "FitDash.Workout.Domain/1.0.0": {
         "dependencies": {
           "FitDash.Core": "1.0.0",
           "FluentValidation": "11.2.2",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.10"
         },
         "runtime": {
-          "FItDash.Workout.Domain.dll": {}
+          "FitDash.Workout.Domain.dll": {}
         }
       }
     }
@@ -526,7 +527,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "FItDash.Workout.Domain/1.0.0": {
+    "FitDash.Workout.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

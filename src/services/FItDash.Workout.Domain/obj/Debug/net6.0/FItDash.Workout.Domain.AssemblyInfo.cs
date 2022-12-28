@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("FItDash.Workout.Domain")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("FitDash.Workout.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("FItDash.Workout.Domain")]
-[assembly: System.Reflection.AssemblyTitleAttribute("FItDash.Workout.Domain")]
+[assembly: System.Reflection.AssemblyProductAttribute("FitDash.Workout.Domain")]
+[assembly: System.Reflection.AssemblyTitleAttribute("FitDash.Workout.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.

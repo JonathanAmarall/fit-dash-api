@@ -31,7 +31,7 @@ namespace FitDash.Workout.Data.Repositories
             _context?.Dispose();
         }
 
-        public async Task<Training> FindOneAsync(Guid id)
+        public async Task<Training?> FindOneAsync(Guid id)
         {
            return await _context.Trainings.FirstOrDefaultAsync(x => x.Id == id);
         }

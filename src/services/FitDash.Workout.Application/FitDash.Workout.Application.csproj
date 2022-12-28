@@ -7,8 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FitDash.Core\FitDash.Core.csproj" />
-    <ProjectReference Include="..\FItDash.Workout.Domain\FItDash.Workout.Domain.csproj" />
+    <ProjectReference Include="..\FItDash.Workout.Domain\FitDash.Workout.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>

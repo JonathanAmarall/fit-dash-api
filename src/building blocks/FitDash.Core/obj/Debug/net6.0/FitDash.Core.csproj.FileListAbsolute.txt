@@ -1,0 +1,24 @@
+C:\Users\jhoua\Documents\Projects\FitDash\Backend\FitDash\src\services\FitDash.Core\bin\Debug\net6.0\FitDash.Core.deps.json
+C:\Users\jhoua\Documents\Projects\FitDash\Backend\FitDash\src\services\FitDash.Core\bin\Debug\net6.0\FitDash.Core.dll
+C:\Users\jhoua\Documents\Projects\FitDash\Backend\FitDash\src\services\FitDash.Core\bin\Debug\net6.0\FitDash.Core.pdb
+C:\Users\jhoua\Documents\Projects\FitDash\Backend\FitDash\src\services\FitDash.Core\obj\Debug\net6.0\FitDash.Core.csproj.AssemblyReference.cache
+C:\Users\jhoua\Documents\Projects\FitDash\Backend\FitDash\src\services\FitDash.Core\obj\Debug\net6.0\FitDash.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jhoua\Documents\Projects\FitDash\Backend\FitDash\src\services\FitDash.Core\obj\Debug\net6.0\FitDash.Core.AssemblyInfoInputs.cache
+C:\Users\jhoua\Documents\Projects\FitDash\Backend\FitDash\src\services\FitDash.Core\obj\Debug\net6.0\FitDash.Core.AssemblyInfo.cs
+C:\Users\jhoua\Documents\Projects\FitDash\Backend\FitDash\src\services\FitDash.Core\obj\Debug\net6.0\FitDash.Core.csproj.CoreCompileInputs.cache
+C:\Users\jhoua\Documents\Projects\FitDash\Backend\FitDash\src\services\FitDash.Core\obj\Debug\net6.0\FitDash.Core.dll
+C:\Users\jhoua\Documents\Projects\FitDash\Backend\FitDash\src\services\FitDash.Core\obj\Debug\net6.0\refint\FitDash.Core.dll
+C:\Users\jhoua\Documents\Projects\FitDash\Backend\FitDash\src\services\FitDash.Core\obj\Debug\net6.0\FitDash.Core.pdb
+C:\Users\jhoua\Documents\Projects\FitDash\Backend\FitDash\src\services\FitDash.Core\obj\Debug\net6.0\ref\FitDash.Core.dll
+C:\Users\jonathan.cequim\Documents\Projetcs\FitDash\src\building blocks\FitDash.Core\bin\Debug\net6.0\FitDash.Core.deps.json
+C:\Users\jonathan.cequim\Documents\Projetcs\FitDash\src\building blocks\FitDash.Core\bin\Debug\net6.0\FitDash.Core.dll
+C:\Users\jonathan.cequim\Documents\Projetcs\FitDash\src\building blocks\FitDash.Core\bin\Debug\net6.0\FitDash.Core.pdb
+C:\Users\jonathan.cequim\Documents\Projetcs\FitDash\src\building blocks\FitDash.Core\obj\Debug\net6.0\FitDash.Core.csproj.AssemblyReference.cache
+C:\Users\jonathan.cequim\Documents\Projetcs\FitDash\src\building blocks\FitDash.Core\obj\Debug\net6.0\FitDash.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jonathan.cequim\Documents\Projetcs\FitDash\src\building blocks\FitDash.Core\obj\Debug\net6.0\FitDash.Core.AssemblyInfoInputs.cache
+C:\Users\jonathan.cequim\Documents\Projetcs\FitDash\src\building blocks\FitDash.Core\obj\Debug\net6.0\FitDash.Core.AssemblyInfo.cs
+C:\Users\jonathan.cequim\Documents\Projetcs\FitDash\src\building blocks\FitDash.Core\obj\Debug\net6.0\FitDash.Core.csproj.CoreCompileInputs.cache
+C:\Users\jonathan.cequim\Documents\Projetcs\FitDash\src\building blocks\FitDash.Core\obj\Debug\net6.0\FitDash.Core.dll
+C:\Users\jonathan.cequim\Documents\Projetcs\FitDash\src\building blocks\FitDash.Core\obj\Debug\net6.0\refint\FitDash.Core.dll
+C:\Users\jonathan.cequim\Documents\Projetcs\FitDash\src\building blocks\FitDash.Core\obj\Debug\net6.0\FitDash.Core.pdb
+C:\Users\jonathan.cequim\Documents\Projetcs\FitDash\src\building blocks\FitDash.Core\obj\Debug\net6.0\ref\FitDash.Core.dll

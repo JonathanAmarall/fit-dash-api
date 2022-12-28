@@ -11,6 +11,8 @@
             timer.Elapsed += OnTimedEvent;
             timer.AutoReset = true;
             timer.Enabled = true;
+
+            await Task.CompletedTask;
         }
 
         private void OnTimedEvent(object? sender, System.Timers.ElapsedEventArgs e)

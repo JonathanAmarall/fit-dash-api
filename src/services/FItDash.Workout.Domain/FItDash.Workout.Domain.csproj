@@ -12,7 +12,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\FitDash.Core\FitDash.Core.csproj" />
+		<ProjectReference Include="..\..\building blocks\FitDash.Core\FitDash.Core.csproj" />
 	</ItemGroup>
 
 </Project>
