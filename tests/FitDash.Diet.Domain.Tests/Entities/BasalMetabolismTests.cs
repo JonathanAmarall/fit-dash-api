@@ -1,4 +1,5 @@
 ﻿using FitDash.Diet.Domain.Entities;
+using FitDash.Diet.Domain.Enums;
 
 namespace FitDash.Diet.Domain.Tests.Entities
 {

@@ -1,5 +1,6 @@
 ﻿using FitDash.Core.Data;
 using FitDash.Core.DomainObjects;
+using FitDash.Diet.Domain.Enums;
 
 namespace FitDash.Diet.Domain.Entities
 {
