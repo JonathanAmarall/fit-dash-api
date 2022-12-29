@@ -31,7 +31,8 @@ namespace FitDash.Api.Setup
             services.AddScoped<ITrainingRepository, TrainingRepository>();
             services.AddScoped<IWorkoutRotineRepository, WorkoutRotineRepository>();
 
-            services.AddScoped<IBasalMetabolismRepository, BasalMetabolismRepository>();
+            services.AddScoped<IBasalMetabolismRepository, BasalMetabolismRepository>(); 
+            services.AddScoped<IEventStoreRepository, EventStoreRepository>(); 
             #endregion
 
             #region Application Services

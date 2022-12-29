@@ -12,6 +12,7 @@ namespace FitDash.Diet.Domain.CommandHandlers
     {
         private readonly IBasalMetabolismRepository _basalMetabolismRepository;
         private readonly IMediatorHandler _mediatorHandler;
+      
         public CreateBasalMetabolismCommandHandler(IBasalMetabolismRepository basalMetabolismRepository, IMediatorHandler mediatorHandler)
         {
             _basalMetabolismRepository = basalMetabolismRepository;
@@ -25,7 +26,7 @@ namespace FitDash.Diet.Domain.CommandHandlers
 
             var bm = new BasalMetabolism(request.Height, request.Weight, request.YearsOld, request.ActivityFactor, request.Gender);
 
-            bm.AddEvent(new NewBasalMetabolismsCreatedEvent(bm.Height, bm.Weight, bm.YearsOld, bm.ActivityFactor, bm.Gender));
+            bm.AddEvent(new NewBasalMetabolismsCreatedEvent(bm.Id, bm.Height, bm.Weight, bm.YearsOld, bm.ActivityFactor, bm.Gender));
 
             await _basalMetabolismRepository.CreateAsync(bm);
             await _basalMetabolismRepository.UnitOfWork.Commit();

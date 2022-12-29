@@ -4,8 +4,9 @@ namespace FitDash.Core.Messages.Events
 {
     public class NewBasalMetabolismsCreatedEvent : Event
     {
-        public NewBasalMetabolismsCreatedEvent(int height, int weight, int yearsOld, EActivityFactor activityFactor, EGender gender)
+        public NewBasalMetabolismsCreatedEvent(Guid aggregateId, int height, int weight, int yearsOld, EActivityFactor activityFactor, EGender gender) : base()
         {
+            AggregateId = aggregateId;
             Height = height;
             Weight = weight;
             YearsOld = yearsOld;
@@ -18,6 +19,5 @@ namespace FitDash.Core.Messages.Events
         public int YearsOld { get; private set; }
         public EActivityFactor ActivityFactor { get; private set; }
         public EGender Gender { get; private set; }
-
     }
 }

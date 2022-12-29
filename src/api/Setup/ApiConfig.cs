@@ -10,6 +10,7 @@ namespace FitDash.Api.Setup
         public static void AddApiConfiguration(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddControllers();
+          
             #region Contexts
 
             services.AddDbContext<IdentityContext>(options =>
@@ -27,6 +28,12 @@ namespace FitDash.Api.Setup
             services.AddDbContext<ReadModelSqlContext>(options =>
             {
                 options.UseNpgsql(configuration.GetConnectionString("DietDbConnection"));
+            });
+            AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
+
+            services.AddDbContext<EventStoreSqlContext>(options =>
+            {
+                options.UseNpgsql(configuration.GetConnectionString("EventStoreDbConnection"));
             });
             AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
 

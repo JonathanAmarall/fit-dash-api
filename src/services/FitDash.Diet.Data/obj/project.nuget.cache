@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "TTdTuVz3yeKzpB6dBuJ2ssCJrP51K+M1P3wcMnkMtMBvHOyB/lMXhmV6nw/zHNTCTB+30LPiF8JrCzIkriUbkA==",
+  "dgSpecHash": "gyaCez03NsqKH8q0tZm8aWFYYp1qjil0uaVzHDkAzUYvmz5Uq4tfaOWwejbtbUe/C2OhkAZke7TBlInuGnoOkQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\jonathan.cequim\\Documents\\Projetcs\\FitDash\\src\\services\\FitDash.Diet.Data\\FitDash.Diet.Data.csproj",
   "expectedPackageFiles": [
@@ -22,6 +22,7 @@
     "C:\\Users\\jonathan.cequim\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\jonathan.cequim\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\jonathan.cequim\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\jonathan.cequim\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\jonathan.cequim\\.nuget\\packages\\npgsql\\6.0.7\\npgsql.6.0.7.nupkg.sha512",
     "C:\\Users\\jonathan.cequim\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\6.0.7\\npgsql.entityframeworkcore.postgresql.6.0.7.nupkg.sha512",
     "C:\\Users\\jonathan.cequim\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
