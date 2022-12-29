@@ -1,5 +1,5 @@
 ﻿using FitDash.Api.Models;
-using FitDash.Core.Events;
+using FitDash.Core.Messages.Events;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;

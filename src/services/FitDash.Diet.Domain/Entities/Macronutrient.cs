@@ -5,11 +5,12 @@ namespace FitDash.Diet.Domain.Entities
 
     public class Macronutrient : EntityBase
     {
+        protected Macronutrient() { }
         public Macronutrient(decimal weight)
         {
-            Protein = weight * 4;
-            Carbs = weight * 4;
-            Fat = weight * 9;
+            Protein = (weight * 2) * 4;
+            Carbs = (weight * 3) * 4;
+            Fat = (weight * 1) * 9;
 
             Calories = Protein + Carbs + Fat;
         }
@@ -23,7 +24,6 @@ namespace FitDash.Diet.Domain.Entities
         // EF Rel.
         public Guid BasalMetabolismId { get; private set; }
         public BasalMetabolism BasalMetabolism { get; private set; }
-
 
         public void ApplyCaloricDeficit(decimal value)
         {

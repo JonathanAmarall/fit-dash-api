@@ -1,7 +1,11 @@
 ﻿using FitDash.Api.Services;
 using FitDash.Core.Mediator;
+using FitDash.Core.Messages.Events;
+using FitDash.Diet.Data.Repositories;
 using FitDash.Diet.Domain.CommandHandlers;
 using FitDash.Diet.Domain.Commands;
+using FitDash.Diet.Domain.EventHandlers;
+using FitDash.Diet.Domain.Repositories;
 using FitDash.Workout.Application.Services;
 using FitDash.Workout.Data.Repositories;
 using FitDash.Workout.Domain.Repositories;
@@ -19,7 +23,6 @@ namespace FitDash.Api.Setup
             services.AddEndpointsApiExplorer();
             services.AddSwaggerConfiguration();
             //builder.Services.AddAutoMapper();
-            services.AddMediatR(Assembly.GetExecutingAssembly());
             services.AddScoped<ITokenService, TokenService>();
             #endregion
 
@@ -27,6 +30,8 @@ namespace FitDash.Api.Setup
             services.AddScoped<IExerciseRepository, ExerciseRepository>();
             services.AddScoped<ITrainingRepository, TrainingRepository>();
             services.AddScoped<IWorkoutRotineRepository, WorkoutRotineRepository>();
+
+            services.AddScoped<IBasalMetabolismRepository, BasalMetabolismRepository>();
             #endregion
 
             #region Application Services
@@ -34,7 +39,9 @@ namespace FitDash.Api.Setup
             #endregion
 
             #region MediatR
+            services.AddMediatR(Assembly.GetExecutingAssembly());
             services.AddScoped<IMediatorHandler, MediatorHandler>();
+            services.AddScoped<INotificationHandler<NewBasalMetabolismsCreatedEvent>, NewBasalMetabolismsCreatedEventHandler>();
             #endregion
 
             #region Handlers

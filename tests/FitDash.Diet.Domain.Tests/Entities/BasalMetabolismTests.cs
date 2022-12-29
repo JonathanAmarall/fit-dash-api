@@ -1,5 +1,5 @@
-﻿using FitDash.Diet.Domain.Entities;
-using FitDash.Diet.Domain.Enums;
+﻿using FitDash.Core.DomainObjects.Enums;
+using FitDash.Diet.Domain.Entities;
 
 namespace FitDash.Diet.Domain.Tests.Entities
 {
@@ -10,7 +10,7 @@ namespace FitDash.Diet.Domain.Tests.Entities
         {
             // Arrange
             // Act
-            var bm = new BasalMetabolism(174, 90, 27, 1.5m, EGender.MALE);
+            var bm = new BasalMetabolism(174, 90, 27, EActivityFactor.BEGINNER_TRAINING, EGender.MALE);
             decimal dailyCalories = bm.DailyCalorieExpenditure();
             decimal idealWeight = bm.IdealWeight();
 

@@ -1,6 +1,6 @@
 using FitDash.Core.Data;
 using FitDash.Core.DomainObjects;
-using FitDash.Core.Enums;
+using FitDash.Core.DomainObjects.Enums;
 using FluentValidation;
 using FluentValidation.Results;
 

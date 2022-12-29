@@ -1,5 +1,5 @@
-﻿using FitDash.Core.Events;
-using FitDash.Core.Messages;
+﻿using FitDash.Core.Messages;
+using FitDash.Core.Messages.Events;
 using FluentValidation.Results;
 
 namespace FitDash.Core.Mediator

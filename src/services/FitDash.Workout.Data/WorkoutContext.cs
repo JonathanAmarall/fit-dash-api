@@ -1,6 +1,6 @@
 using FitDash.Core.Data;
-using FitDash.Core.Events;
 using FitDash.Core.Mediator;
+using FitDash.Core.Messages.Events;
 using FitDash.Workout.Entities;
 using Microsoft.EntityFrameworkCore;
 

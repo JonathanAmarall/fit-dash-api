@@ -1,3 +1,4 @@
+using FitDash.Core.DomainObjects.Enums;
 using FitDash.Workout.Entities;
 using System;
 using Xunit;
@@ -21,7 +22,7 @@ namespace FitDash.Workout.Domain.Tests
             var workoutRotine = workoutRotineValid;
 
             // Act
-            workoutRotine.AddTraining(new Training("Treino de peito", null, Core.Enums.EDifficulty.BEGINNER));
+            workoutRotine.AddTraining(new Training("Treino de peito", null, EDifficulty.BEGINNER));
 
             // Assert
             Assert.True(workoutRotine.IsValid());

@@ -1,5 +1,5 @@
 ﻿
-using FitDash.Core.Enums;
+using FitDash.Core.DomainObjects.Enums;
 
 namespace FitDash.Workout.Application.ViewModels
 {

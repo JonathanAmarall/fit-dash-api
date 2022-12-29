@@ -1,11 +1,12 @@
 ﻿using FitDash.Core.DomainObjects;
 using FitDash.Core.Mediator;
+using Microsoft.EntityFrameworkCore;
 
 namespace FitDash.Workout.Data
 {
     public static class MediatorExtension
     {
-        public static async Task PublicEvents(this IMediatorHandler mediator, WorkoutContext ctx)
+        public static async Task PublicEvents(this IMediatorHandler mediator, DbContext ctx)
         {
             var domainEntities = ctx.ChangeTracker
                 .Entries<EntityBase>()

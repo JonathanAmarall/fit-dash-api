@@ -1,4 +1,4 @@
-﻿using FitDash.Diet.Domain.Enums;
+﻿using FitDash.Core.DomainObjects.Enums;
 
 namespace FitDash.Diet.Domain.Extensions
 {

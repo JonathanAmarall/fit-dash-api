@@ -28,6 +28,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<ProjectReference Include="..\services\FitDash.Diet.Data\FitDash.Diet.Data.csproj" />
 		<ProjectReference Include="..\services\FitDash.Diet.Domain\FitDash.Diet.Domain.csproj" />
 		<ProjectReference Include="..\services\FitDash.Workout.Application\FitDash.Workout.Application.csproj" />
 		<ProjectReference Include="..\services\FitDash.Workout.Data\FitDash.Workout.Data.csproj" />

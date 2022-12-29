@@ -1,4 +1,6 @@
-﻿namespace FitDash.Core.Events
+﻿using FitDash.Core.Messages.Events;
+
+namespace FitDash.Core.Events
 {
     public class DomainEvent : Event
     {

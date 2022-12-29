@@ -1,6 +1,6 @@
 ﻿using FitDash.Core.Data;
 using FitDash.Core.DomainObjects;
-using FitDash.Diet.Domain.Enums;
+using FitDash.Core.DomainObjects.Enums;
 using FitDash.Diet.Domain.Extensions;
 
 namespace FitDash.Diet.Domain.Entities
@@ -15,7 +15,7 @@ namespace FitDash.Diet.Domain.Entities
             ActivityFactor = activityFactor;
             Gender = gender;
 
-            Macronutrients = new Macronutrient(Weight);
+            Macronutrient = new Macronutrient(weight);
         }
 
         public int Height { get; private set; }
@@ -25,7 +25,7 @@ namespace FitDash.Diet.Domain.Entities
         public EGender Gender { get; private set; }
 
         // EF Rel. 
-        public Macronutrient Macronutrients { get; private set; }
+        public Macronutrient Macronutrient { get; private set; }
 
         public decimal DailyCalorieExpenditure()
         {

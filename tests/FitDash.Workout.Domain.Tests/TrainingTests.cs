@@ -1,4 +1,4 @@
-﻿using FitDash.Core.Enums;
+﻿using FitDash.Core.DomainObjects.Enums;
 using FitDash.Workout.Entities;
 using Xunit;
 

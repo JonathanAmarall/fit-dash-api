@@ -1,4 +1,4 @@
-﻿namespace FitDash.Core.Enums
+﻿namespace FitDash.Core.DomainObjects.Enums
 {
     public enum EDifficulty
     {

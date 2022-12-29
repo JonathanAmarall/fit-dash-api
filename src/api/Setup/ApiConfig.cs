@@ -1,4 +1,5 @@
 ﻿using FitDash.Api.Data;
+using FitDash.Diet.Data.Contexts;
 using FitDash.Workout.Data;
 using Microsoft.EntityFrameworkCore;
 
@@ -22,6 +23,14 @@ namespace FitDash.Api.Setup
                 options.UseNpgsql(configuration.GetConnectionString("DefaultConnection"));
             });
             AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
+
+            services.AddDbContext<ReadModelSqlContext>(options =>
+            {
+                options.UseNpgsql(configuration.GetConnectionString("DietDbConnection"));
+            });
+            AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
+
+
             #endregion
         }
 

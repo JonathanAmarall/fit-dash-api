@@ -1,11 +1,11 @@
-﻿using MediatR;
+﻿using FitDash.Core.Events;
+using MediatR;
 using System.ComponentModel.DataAnnotations;
 
-namespace FitDash.Core.Events
+namespace FitDash.Core.Messages.Events
 {
     public abstract class Event : Message, INotification
     {
-        [Key]
         public Guid EventStoreId { get; set; }
         public string EventName { get; set; }
         public string Metadata { get; set; }

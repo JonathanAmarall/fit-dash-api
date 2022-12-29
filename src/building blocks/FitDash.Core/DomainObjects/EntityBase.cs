@@ -1,29 +1,32 @@
-using FitDash.Core.Events;
+using FitDash.Core.Messages.Events;
 using FluentValidation;
 using FluentValidation.Results;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace FitDash.Core.DomainObjects
 
 {
     public abstract class EntityBase
     {
+        [NotMapped]
         public ValidationResult ValidationResult { get; protected set; }
-
+        [NotMapped]
         private List<Event> _notifications;
-        public IReadOnlyCollection<Event> Notifications => _notifications?.AsReadOnly();
+        public IReadOnlyCollection<Event> Notifications => _notifications.AsReadOnly();
 
 
         public EntityBase()
         {
             Id = Guid.NewGuid();
             CreateAt = DateTime.Now;
+            _notifications = _notifications ?? new List<Event>();
         }
 
         public Guid Id { get; private set; }
 
         public DateTime CreateAt { get; private set; }
         public DateTime? UpdateAt { get; protected set; }
-        
+
         public void AddEvent(Event eventItem)
         {
             _notifications = _notifications ?? new List<Event>();

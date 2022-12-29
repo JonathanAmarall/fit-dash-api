@@ -1,4 +1,4 @@
-﻿namespace FitDash.Diet.Domain.Enums
+﻿namespace FitDash.Core.DomainObjects.Enums
 {
     public enum EActivityFactor
     {
