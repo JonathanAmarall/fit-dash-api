@@ -11,12 +11,10 @@ namespace FitDash.Diet.Domain.CommandHandlers
     public class CreateBasalMetabolismCommandHandler : IRequestHandler<CreateBasalMetabolismCommand, ValidationResult>
     {
         private readonly IBasalMetabolismRepository _basalMetabolismRepository;
-        private readonly IMediatorHandler _mediatorHandler;
       
         public CreateBasalMetabolismCommandHandler(IBasalMetabolismRepository basalMetabolismRepository, IMediatorHandler mediatorHandler)
         {
             _basalMetabolismRepository = basalMetabolismRepository;
-            _mediatorHandler = mediatorHandler;
         }
 
         public async Task<ValidationResult> Handle(CreateBasalMetabolismCommand request, CancellationToken cancellationToken)

@@ -30,7 +30,7 @@ namespace FitDash.Diet.Domain.Entities
         public decimal DailyCalorieExpenditure()
         {
             // TODO: adjust value
-            decimal idealWeight = 65;
+            decimal idealWeight = IdealWeight();
 
             var dce = ActivityFactor.GetValue() * (66.47m + (13.75m * idealWeight) + (5m * Height) - (6.8m * YearsOld));
 
@@ -51,7 +51,7 @@ namespace FitDash.Diet.Domain.Entities
                 idealWeight = Convert.ToDecimal(Math.Pow(Height, 2)) * 22.5m;
             }
 
-            return idealWeight / 100;
+            return idealWeight;
         }
 
     }

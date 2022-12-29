@@ -23,9 +23,10 @@ namespace FitDash.Diet.Data.Repositories
             return basalMetabolism;
         }
 
-        public Task<Macronutrient> CreateMacronutrientAsync(Macronutrient macronutrient)
+        public async Task<Macronutrient> CreateMacronutrientAsync(Macronutrient macronutrient)
         {
-            throw new NotImplementedException();
+            await _context.Macronutrients.AddAsync(macronutrient);
+            return macronutrient;
         }
 
         public void Delete(BasalMetabolism basalMetabolism)
@@ -35,7 +36,7 @@ namespace FitDash.Diet.Data.Repositories
 
         public void DeleteMacronutrient(Macronutrient macronutrient)
         {
-            throw new NotImplementedException();
+            _context.Macronutrients.Remove(macronutrient);
         }
 
         public void Dispose()
@@ -48,9 +49,9 @@ namespace FitDash.Diet.Data.Repositories
             return await _context.BasalMetabolisms.FirstOrDefaultAsync(x => x.Id == id);
         }
 
-        public Task<Macronutrient?> GetMacronutrientById(Guid id)
+        public async Task<Macronutrient?> GetMacronutrientById(Guid id)
         {
-            throw new NotImplementedException();
+            return await _context.Macronutrients.FirstOrDefaultAsync(x => x.Id == id);  
         }
 
         public void Update(BasalMetabolism basalMetabolism)
@@ -60,7 +61,7 @@ namespace FitDash.Diet.Data.Repositories
 
         public void UpdateMacronutrient(Macronutrient macronutrient)
         {
-            throw new NotImplementedException();
+            _context.Macronutrients.Update(macronutrient);
         }
     }
 }
