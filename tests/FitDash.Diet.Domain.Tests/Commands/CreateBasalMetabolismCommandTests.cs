@@ -1,4 +1,5 @@
 ﻿using FitDash.Diet.Domain.Tests.Fixture;
+using FluentAssertions;
 using static FitDash.Diet.Domain.Tests.Fixture.CreateBasalMetabolismCommandTestsFixture;
 
 namespace FitDash.Diet.Domain.Tests.Commands
@@ -23,7 +24,8 @@ namespace FitDash.Diet.Domain.Tests.Commands
             command.IsValid();
 
             // Assert
-            Assert.Equal(0, command.ValidationResult?.Errors.Count);
+            command.IsValid().Should().BeTrue();
+            command.ValidationResult?.Errors.Should().HaveCount(0);
         }
 
 
@@ -34,10 +36,11 @@ namespace FitDash.Diet.Domain.Tests.Commands
             var command = _fixture.Invalid();
 
             // Act
-            command.IsValid();
+            bool isValid = command.IsValid();
 
             // Assert
-            Assert.NotEqual(0, command.ValidationResult?.Errors.Count);
+            isValid.Should().BeTrue();
+            command.ValidationResult?.Errors.Should().HaveCount(0);
         }
     }
 }
